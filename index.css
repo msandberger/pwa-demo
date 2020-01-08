@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#a2hs-prompt {
+  background-color: lightblue;
+  margin-top: 1em;
+  padding: 1em;
+
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+
+  transition: opacity 1s ease-in-out;
+
+  display: "none";
+  opacity: 0;
+}
+
+#btn-a2hs-yes {
+  color: green;
+  font-weight: bold;
+}
+#btn-a2hs-no {
+  color: red;
+}
+
+.pvsystems-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pvsystem-tile {
+  background-color: lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  width: 200px;
+  height: 200px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
