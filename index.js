@@ -4,7 +4,7 @@ function registerServiceWorker() {
   }
 
   window.addEventListener("load", function() {
-    navigator.serviceWorker.register("/pwa/serviceworker.js").then(
+    navigator.serviceWorker.register("serviceworker.js").then(
       function(registration) {
         console.log(
           "ServiceWorker registration successful with scope: ",
