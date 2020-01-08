@@ -3,12 +3,12 @@
   "name": "Fronius Solar.web PWA demo",
   "icons": [
     {
-      "src": "icon-homescreen.png",
+      "src": "/pwa-demo/icon-homescreen.png",
       "sizes": "72x72 96x96 128x128 256x256",
       "type": "image/png"
     }
   ],
-  "start_url": "",
+  "start_url": "/pwa-demo/",
   "display": "standalone",
   "theme-color": "#4d4d4d"
 }
