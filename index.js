@@ -52,5 +52,5 @@ function configureInstallPrompt() {
   });
 }
 
-configureInstallPrompt();
+//configureInstallPrompt();
 registerServiceWorker();
